@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ICDT - INNOVATION CENTER FOR DRONE TECHNOLOGY</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+
+        <link rel="preconnect" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/ICDT LOGO.jpeg" alt="logo" style="width: 4rem; height: 4rem; border-radius: 4rem;float: inline-start;margin-top: 0.2rem;">
+                    <h1 class="text-white" style="margin-top: 1rem;margin-left: 5rem;">AU-ICDT</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="actions.html" class="nav-item nav-link">Actions</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <!-- <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5" >
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">AU-ICDT</div>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">INNOVATION CENTER FOR DRONE TECHNOLOGY</h1>
+                    <p class="text-white mb-4 animated slideInRight">ICDT is a first of it's kind initiative by a state University to establish a research innovation center geared towards developing a sustainable drone based solutions.</p>
+                   
+                    <a href="./contact.html" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/drone.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5"  >
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/drone2.jpeg">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">About Us</div>
+                    <h1 class="mb-4">A leading provider of innovative drone solutions, transforming industries with cutting-edge technology and expertise."</h1>
+                    <p class="mb-4">ICDT is a first of its kind initiative by a state University to establish a research innovation center geared towards developing a sustainable drone based solutions.
+                        </p>
+                    <p class="mb-4" style="text-align: justify">The center's main focus is to promote & develop innovative solutions that can effectively address various use cases by engaging start-ups, Innovation Authorities, Think Tanks, Industry Experts, Visionaries and Policymakers, to create a real time platform for all the aspiring students, faculty, and professionals who intend to expand their knowledge and skills towards disruptive know-how on emerging technologies.</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Award Winning</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Professional Staff</h6>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>24/7 Support</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Practical Exposure</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <a class="btn btn-square btn-primary m-1" href="https://www.linkedin.com/company/innovation-center-for-drone-technologies" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary m-1" href="mailto:hrm@icdt.org.in"> <i class="far fa-envelope"></i></a>
+                        <a class="btn btn-square btn-primary m-1" href="https://www.instagram.com/icdt__?igsh=bm9hNTU0czBid2cy"><i  class="fab fa-instagram"></i></a>
+                        <!-- <a class="btn btn-square btn-primary m-1" href=""><i class="fab fa-twitter"></i></a> -->
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light mt-5 py-5" >
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3 ">Our Services</div>
+                    <h1 class="mb-4" style="text-align: justify">Elevating industries with precise, efficient, and safe aerial solutions.</h1>
+                    <p class="mb-4" style="text-align: justify"> Our comprehensive drone services empower businesses to streamline operations, gather actionable insights, and ensure compliance with regulatory standards.</p>
+                   
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s" >
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded" >
+                                        <div class="service-icon btn-square" >
+                                            <i class="bi bi-book fa-3x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Internships</h5>
+                                        <p style="text-align:justify">ICDT provides dynamic internships focused on exploring and advancing drone technology applications across various industries.</p>
+                                        
+                                            
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="bi bi-gear fa-3x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Research and Development</h5>
+                                        <p style="text-align:justify">ICDT's innovation fuels transformative advancements in drone technology.
+                                            Reshaping industries globally, they redefine possibilities and revolutionize paradigms.</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s" >
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="bi bi-bezier fa-3x"></i>
+
+                                        </div>
+                                        <h5 class="mb-3">Drone-AI Project Facilitation</h5>
+                                        <p style="text-align:justify">ICDT facilitates pioneering Drone-AI projects, bridging innovation in drone technology with advanced artificial intelligence capabilities.</p>
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="bi bi-easel fa-3x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Seminars</h5>
+                                        <p style="text-align:justify">
+                                            ICDT's seminars on drone technology provide students with essential insights from industry experts, fostering a deep understanding of this innovative field.</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+    <style>
+        .clients {
+          padding-top: 20px;
+          overflow: hidden;
+          white-space: nowrap;
+          box-sizing: border-box;
+        }
+        
+        .clients .marquee {
+          display: inline-block;
+          animation: marquee 20s linear infinite;
+        }
+        
+        .clients .marquee img {
+          width: auto; /* Adjust the width to make all logos the same size */
+          height: 8rem; /* Set a fixed height to maintain aspect ratio */
+          margin: 0 20px; /* Space between logos */
+          /* filter: grayscale(100%); */
+          transition: 0.3s;
+        }
+        
+        .clients .marquee img:hover {
+          filter: none;
+          opacity: 1;
+        }
+        
+        @keyframes marquee {
+          0% {
+            transform: translateX(100%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+        
+        /* Optional: Center align the marquee */
+        .marquee {
+          text-align: center;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container-fluid py-5" style="text-align: justify;">
+        <div class="container py-5">
+          <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Partners</div>
+            <h1 class="mb-4">Our MoU Partners</h1>
+          </div>
+          <!-- Clients Section -->
+          <section id="clients" class="clients">
+            <div class="marquee">
+              <img src="img/GITAM.jpeg" class="img-fluid" alt="">
+              <img src="img/JNTU Gurajada-Vizianagaram.png" class="img-fluid" alt="">
+              <img src="img/AU LOGO.png" class="img-fluid" alt="">
+              <img src="img/GVP rushikonda.jpeg" class="img-fluid" alt="">
+              <img src="img/Vignan.png" class="img-fluid" alt="">
+              <img src="img/APSCHE_Logo.jpg" class="img-fluid" alt="">
+              <img src="img/chemical-eng_logo.png" class="img-fluid" alt="">
+              <img src="img/sitam_logo.jpeg" class="img-fluid" alt="">
+              <img src="img/polytechnic_logo.jpg" class="img-fluid" alt="">
+              <!-- Add more logos as needed -->
+            </div>
+          </section>
+        </div>
+      </div>
+    
+      <!-- End Clients Section -->
+</div>
+</div>
+    <!-- Feature Start -->
+    <div class="container-fluid bg-primary feature pt-5">
+        <div class="container pt-5" style="text-align: justify;">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-5 pb-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Why Choose Us</div>
+                    <h1 class="text-white mb-4">Certification Programs</h1>
+                    <p class="text-light mb-4">
+                        ICDT's Drone Certification Training Programs will equip an individual with the required industry-ready practical knowledge and skills to excel in their career in the rapidly growing drone industry.
+                        During the training, an individual will experience a wide range of real-world applications and operation scenarios that make them a pre-qualified emerging tech warrior for every organization in the digital era.
+                        ICDT offers a wide range of certification programs to cater to a diverse career path in the emerging industry.
+                    </p>
+                    <div class="row g-4 pt-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(255, 255, 255, 0.1);">
+                                <i class="fa fa-users fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">2500</h2>
+                                    <p class="text-white mb-0">Fulfilled Learners</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(255, 255, 255, 0.1);">
+                                <i class="fa fa-check fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">2500</h2>
+                                    <p class="text-white mb-0">Accomplished Internships</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img class="img-fluid" src="img/drone_image.png" alt="Drone Image">
+                </div>
+            </div>
+    
+            <div class="row" style="text-align: justify;">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Certified Associate in Drone Technologies</h6>
+                            <h5 class="text-center">CADT</h5>
+                            <h7 class="card-subtitle mb-2">Entry-level certification, also known as a Drone Practitioner</h7>
+                            <p class="card-text">15 hours Theory + 20 hours Practical + 1 optional project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Certified Professional in Drone Technologies</h6>
+                            <h5 class="text-center">CPDT</h5>
+                            <h7 class="card-subtitle mb-2">Second-level certification, also known as a Drone Professional</h7>
+                            <p class="card-text">50 hours Theory + 50 hours Practical + 100 hours Project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Certified Trainer in Drone Technologies</h6>
+                            <h5 class="text-center">CTDT</h5>
+                            <h7 class="card-subtitle mb-2">Second-level certification, also known as a Drone Trainer</h7>
+                            <p class="card-text">10 hours Theory + 20 hours Practical</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" style="text-align: justify;">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Certified Master Trainer in Drone Technologies</h6>
+                            <h5 class="text-center">CMTDT</h5>
+                            <h7 class="card-subtitle mb-2">Third-level certification, also known as Train the Trainer program</h7>
+                            <p class="card-text">20 hours Theory + 20 hours Practical</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Certified Expert in Drone Technologies</h6>
+                            <h5 class="text-center">CEDT</h5>
+                            <h7 class="card-subtitle mb-2">Third-level certification, also known as Drone Designer</h7>
+                            <p class="card-text">50 hours Theory + 100 hours Practical + 200 hours Project</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title text-center">Certified Drone Scientist</h6>
+                            <h5 class="text-center">CDS</h5>
+                            <h7 class="card-subtitle mb-2">Fourth-level certification</h7>
+                            <p class="card-text">Highest level of expertise in drone research & development, with the ability to lead and innovate in the industry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        .card {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .card-body h5 {
+            color: rgb(0, 13, 85);
+            text-align: center;
+            font-weight: bold;
+        }
+        .card-body h6 {
+            background-color: rgb(47, 135, 250);
+            color: white;
+            text-align: center;
+        }
+        .card-body h7 {
+            font-weight: bold;
+        }
+    </style>
+    
+    <!-- Feature End -->
+
+ <!-- Actions Start -->
+
+      <div class="container-fluid bg-light py-5">
+        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+          <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Actions</div>
+          <h1 class="mb-4">Explore Our Activities</h1>
+        </div>
+    
+        <!-- Marquee Effect Wrapper -->
+        <div class="marquee-wrapper">
+          <div class="marquee-container">
+            <!-- Cards Container with Horizontal Scroll -->
+            <div class="cards-container">
+              <!-- Card 1 -->
+              <div class="car">
+                <img src="img/class4.jpeg" alt="Image 1" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Training</h5>
+                  <p class="lh-base text-black mb-3">Providing professional drone training for interns to enhance their practical skills in unmanned aerial vehicle (UAV) operations.</p>
+                </div>
+              </div>
+    
+              <!-- Card 2 -->
+              <div class="car">
+                <img src="img/moulibrights.jpeg" alt="Image 2" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Services</h5>
+                  <p class="lh-base text-black mb-3">Conducting professional land surveying services for the establishment of a heliport in Kirandul.</p>
+                </div>
+              </div>
+    
+              <!-- Card 3 -->
+              <div class="car">
+                <img src="img/class3.jpeg" alt="Image 3" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Seminars</h5>
+                  <p class="lh-base text-black mb-3">Delivering a professional seminar on structural design methodologies in Kerala.</p>
+                </div>
+              </div>
+    
+              
+              <!-- <div class="car">
+                <img src="img/class4.jpeg" alt="Image 4" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card 4 Title</h5>
+                  <p class="card-text">This is a sample text for Card 4.</p>
+                </div>
+              </div>
+    
+          
+              <div class="car">
+                <img src="img/class4.jpeg" alt="Image 5" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card 5 Title</h5>
+                  <p class="card-text">This is a sample text for Card 5.</p>
+                </div>
+              </div>
+
+
+              <div class="car">
+                <img src="img/class4.jpeg" alt="Image 5" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card 5 Title</h5>
+                  <p class="card-text">This is a sample text for Card 5.</p>
+                </div>
+              </div>
+
+              <div class="car">
+                <img src="img/class4.jpeg" alt="Image 5" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card 5 Title</h5>
+                  <p class="card-text">This is a sample text for Card 5.</p>
+                </div>
+              </div>
+
+              <div class="car">
+                <img src="img/class4.jpeg" alt="Image 5" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card 5 Title</h5>
+                  <p class="card-text">This is a sample text for Card 5.</p>
+                </div>
+              </div> -->
+
+
+            </div>
+          </div>
+        </div>
+    
+      </div>
+<!-- Actions End -->
+
+    <!-- FAQs Start -->
+    <div class="container-fluid py-5"  style="text-align: justify";>
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Popular FAQs</div>
+                <h1 class="mb-4">Frequently Asked Questions</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ1">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.1s">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Are online classes available for internships and training?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body" style="color: rgb(91, 152, 243);">
+                                    Yes, we do offer online internship programs for select students, but we prefer offline sessions for CADT programs.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    What are the challenges of using drones in different sectors?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body" style="color: rgb(91, 152, 243);">
+                                    Regulatory compliance, safety concerns, and privacy issues pose challenges for drone deployment across sectors like agriculture, construction, and public safety.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    What are some common applications of drones in various industries?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body" style="color: rgb(91, 152, 243);">
+                                    We can effectively use drones in variety of sectors like agriculture, surveillance, videography, search and rescue.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    What are the rules for flying drones commercially in india ?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body" style="color: rgb(91, 152, 243);">
+                                    The "drone rules 2021," which were released by MoCA, specify the guidelines that must be followed when flying drones in India.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionFAQ2">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.5s">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Is a license required for operating drones?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body" style="color: rgb(91, 152, 243);">
+                                    Yes, obtaining a Remote Pilot Certificate (RPC) is mandatory for operating drones; nevertheless, there are certain exemptions and special provisions in place. These exemptions allow for flexibility in certain scenarios, enabling individuals to engage in drone operations without necessarily holding an RPC. However, it's essential to note that these exemptions are subject to specific criteria and conditions outlined by aviation authorities.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    What is the minimum qualification to be a Drone Pilot?
+                                </button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body" style="color: rgb(91, 152, 243);">
+                                    As per the drone rules of 2021, the minimum qualification required to obtain certification as a drone pilot (RPC) is a passing grade of at least 10th standard or equivalent. These updated regulations reflect a concerted effort to make drone piloting more accessible to a broader range of individuals, thereby fostering inclusivity and diversity within the aviation industry.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.7s">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Does certification involve any projects?
+                                </button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body" style="color: rgb(91, 152, 243);">
+                                    Yes, we actively engage students in our live projects, providing them with valuable hands-on experience to enhance their skills in navigating the emerging landscape of technology. By immersing students in real-world scenarios, we empower them to apply theoretical knowledge to practical situations, fostering a deeper understanding of cutting-edge technologies and their applications.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                    Is there any support or guidance available for drone projects at ICDT?
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionFAQ2">
+                                <div class="accordion-body" style="color: rgb(91, 152, 243);">
+                                    Certainly, we have provided mentorship to numerous students for their individual projects, aiding them in refining their concepts and developing their abilities to realize their visions. Through tailored guidance and support, our aim is to empower students to unleash their creativity and innovation, equipping them with the necessary tools and resources to address obstacles and pursue their interests.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQs End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3" >Our Team</div>
+                    <h1 class="mb-4" >Meet Our Experienced Team Members </h1>
+                    <p class="mb-4" style="text-align: justify;">Introducing our exceptional team members, each bringing their unique blend of experience and expertise to the table. From seasoned pros to up-and-comers, our crew is all about delivering top-notch results. Meet the faces behind our success and see the passion they bring to the table!</p>                  
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/lalitha4.jpeg" alt="">
+                                        <h5 class="mb-0">Lalitha</h5>
+                                        <small>R&D LEAD</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <!-- <a class="btn btn-square btn-primary m-1" href=""><i  class="fab fa-linkedin-in"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i class="far fa-envelope"></i></a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/jaidev.jpeg" alt="">
+                                        <h5 class="mb-0">Jaidev</h5>
+                                        <small>R&D ENGINEER</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <!-- <a class="btn btn-square btn-primary m-1" href=""><i  class="fab fa-linkedin-in"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i class="far fa-envelope"></i></a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/manohar.jpeg" alt="">
+                                        <h5 class="mb-0">Manohar</h5>
+                                        <small>FIELD ENGINEER</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <!-- <a class="btn btn-square btn-primary m-1" href=""><i  class="fab fa-linkedin-in"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i class="far fa-envelope"></i></a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="team-item bg-white text-center rounded p-4 pt-0">
+                                        <img class="img-fluid rounded-circle p-4" src="img/chey.jpg" alt="">
+                                        <h5 class="mb-0">Chaitanya</h5>
+                                        <small>TESTING ENGINEER</small>
+                                        <div class="d-flex justify-content-center mt-3">
+                                            <!-- <a class="btn btn-square btn-primary m-1" href=""><i  class="fab fa-linkedin-in"></i></a>
+                                            <a class="btn btn-square btn-primary m-1" href=""><i class="far fa-envelope"></i></a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Collaborating Start -->
+     
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Collaborating</div>
+                    <h1 class="mb-4">
+                        "Partnering with forward-thinking industries for ongoing innovation!"
+                    </h1>
+                    <p class="mb-4" style="text-align: justify;">
+                        "At AU-ICDT, we collaborate with forward-thinking industries to drive ongoing innovation. Together, we explore cutting-edge technologies, redefine possibilities, and shape the future through transformative solutions."
+                    </p>
+                </div>
+               <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+    <div class="owl-carousel testimonial-carousel border-start border-primary" style=" height: 300px;">
+       <!-- Industry 1 -->
+<div class="industry-container" style="height: 300px; position: relative;">
+    <div class="industry-content text-center" style="position: absolute; top: 50%; left: 30%; z-index: 1;">
+      <h2 class="fs-7" style="color: #000;">VIZAG STEEL PLANT</h2>
+    </div>
+    <div class="industry-container:before" style="background-image: url('img/id-1.jpg'); background-size: cover; background-position: center; opacity: 0.6; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+  </div>
+  
+  <!-- Industry 2 -->
+  <div class="industry-container" style="height: 300px; position: relative;">
+    <div class="industry-content text-center" style="position: absolute; top: 50%; left: 20%; z-index: 1;">
+      <h2 class="fs-7" style="color: #000;">HINDUSTAN SHIPYARD LIMITED</h2>
+    </div>
+    <div class="industry-container:before" style="background-image: url('img/id-2.jpg'); background-size: cover; background-position: center; opacity: 0.7; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+  </div>
+  
+  <!-- Industry 3 -->
+  <div class="industry-container" style="height: 300px; position: relative;">
+    <div class="industry-content text-center" style="position: absolute; top: 50%; left: 20%; z-index: 1;">
+      <h2 class="fs-7" style="color: #000;">DREDGING CORPORATION OF INDIA</h2>
+    </div>
+    <div class="industry-container:before" style="background-image: url('img/id-3.jpg'); background-size: cover; background-position: center; opacity: 0.6; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+  </div>
+  
+  <!-- Industry 4 -->
+  <div class="industry-container" style="height: 300px; position: relative;">
+    <div class="industry-content text-center" style="position: absolute; top: 50%; left: 5%; z-index: 1;">
+      <h2 class="fs-7" style="color: #000;">NAVAL SCIENCE & TECHNOLOGICAL LABORATORY</h2>
+    </div>
+    <div class="industry-container:before" style="background-image: url('img/id-4.jfif'); background-size: cover; background-position: center; opacity: 0.7; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+  </div>
+  
+  <!-- Industry 5 -->
+  <div class="industry-container" style="height: 300px; position: relative;">
+    <div class="industry-content text-center" style="position: absolute; top: 50%; left: 10%; z-index: 1;">
+      <h2 class="fs-7" style="color: #000;">SINGARENI COLLIERIES COMPANY LIMITED</h2>
+    </div>
+    <div class="industry-container:before" style="background-image: url('img/id-5.jpg'); background-size: cover; background-position: center; opacity: 0.6; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+  </div>
+
+
+        <div class="industry-container" style="height: 300px; position: relative;">
+            <div class="industry-content text-center" style="position: absolute; top: 50%; left: 30%; z-index: 1;">
+                <h2 class="fs-7"style="color: #000;">NAVAL DOCKYARD </h2>
+            </div>
+            <div class="industry-container:before" style="background-image: url('img/id-6.avif'); background-size: cover; background-position: center; opacity: 0.6; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+          </div>
+        <!-- Repeat for other industries -->
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Collaborating</div>
+                    <h1 class="mb-4" >
+                        "Partnering with forward-thinking industries for ongoing innovation!"</h1>
+                    <p class="mb-4"  style="text-align: justify";>"At AU-ICDT, we collaborate with forward-thinking industries to drive ongoing innovation. Together, we explore cutting-edge technologies, redefine possibilities, and shape the future through transformative solutions."</p>
+                   
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h2 class="fs-4">VIZAG STEEL PLANT</h2>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Collaborating End -->
+
+
+    <!-- Newsletter Start -->
+    <!-- <div class="container-fluid bg-primary newsletter py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/newsletter.png" alt="">
+                </div>
+                <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Newsletter</div>
+                    <h1 class="text-white mb-4">Let's subscribe the newsletter</h1>
+                    <div class="position-relative w-100 mt-3 mb-2">
+                        <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
+                            placeholder="Enter Your Email" style="height: 48px;">
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    </div>
+                    <small class="text-white-50">Diam sed sed dolor stet amet eirmod</small>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Newsletter End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <img src="img/ICDT LOGO.jpeg" style="width: 4rem; height: 4rem; border-radius: 4rem;">
+                        <h1 class="text-white" style="margin-left: 1rem; margin-top: 0.5rem;">ICDT</h1>
+                    </a>
+                    <p class="mb-0">ICDT is a first of its kind initiative by a state University to establish a research innovation center geared towards developing sustainable drone-based solutions.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Office</h5>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>ICDT Complex,</p>
+                    <p><i class="me-2"></i>P5-P6 North campus,</p>
+                    <p><i class="me-2"></i>Andhra University, 530003</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+91-8688153549</p>
+                    <p><i class="fa fa-envelope me-3"></i>hrm@icdt.org.in</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary m-1" href="https://www.linkedin.com/company/innovation-center-for-drone-technologies" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary m-1" href="mailto:hrm@icdt.org.in"> <i class="far fa-envelope"></i></a>
+                        <a class="btn btn-square btn-primary m-1" href="https://www.instagram.com/icdt__?igsh=bm9hNTU0czBid2cy"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="service.html">Services</a>
+                    <a class="btn btn-link" href="project.html">Actions</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">ICDT 2024</a>, All Rights Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Home</a>
+                            <a href="faq.html">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        .footer .container .row .col-md-6.col-lg-3 {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+    
+        @media (max-width: 767px) {
+            .footer .container .row {
+                text-align: center;
+            }
+    
+            .footer .container .row .col-md-6.col-lg-3 {
+                align-items: center;
+            }
+    
+            .footer .container .row .col-md-6.col-lg-3 a img {
+                float: none;
+                margin: 0 auto 1rem;
+            }
+    
+            .footer .container .row .col-md-6.col-lg-3 h1 {
+                margin-left: 0;
+            }
+    
+            .footer .container .row .col-md-6.col-lg-3:nth-child(2) {
+                margin-left: 0;
+            }
+        }
+    </style>
+    
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+
+        
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
